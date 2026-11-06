@@ -1,0 +1,18 @@
+# Local environment variables, not uploaded
+.env
+.env.*
+!.env.example
+
+# Python caching and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and system files
+.idea/
+.DS_Store
+
+# Local tests cache and run date
+.pytest_cache/
+data/
